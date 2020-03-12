@@ -10,4 +10,9 @@ module Memorable
 end
 
 class Artist 
-  extend M
+  extend Memorable
+end
+
+class Song 
+  extend Memorable
+end
