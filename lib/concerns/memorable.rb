@@ -10,4 +10,4 @@ module Memorable
 end
 
 class Artist 
-  extend 
+  extend M
