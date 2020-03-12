@@ -16,3 +16,11 @@ module Memorable
     end
   end
 end
+
+class Artist 
+  extend Memorable
+end
+
+class Song 
+  extend Memorable
+end
