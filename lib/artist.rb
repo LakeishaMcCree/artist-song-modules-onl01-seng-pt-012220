@@ -22,7 +22,11 @@ class Artist
   end
   
   def reset_all
-    self.reset
+    self.all.clear
+  end
+  
+  def self.count
+    
 
   def add_song(song)
     @songs << song
