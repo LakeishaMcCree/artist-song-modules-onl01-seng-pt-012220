@@ -21,13 +21,13 @@ class Song
     @@songs
   end
 
-  def reset_all
-    self.all.clear
-  end
+  #def reset_all
+    #self.all.clear
+  #end
   
-  def self.count
-    self.all.count
-  end
+  #def self.count
+    #self.all.count
+  #end
 
   def artist=(artist)
     @artist = artist
